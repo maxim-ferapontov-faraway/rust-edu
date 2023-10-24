@@ -1,0 +1,21 @@
+{
+  "configurations": {
+    "launch": {
+      "adapter": "CodeLLDB",
+      "filetypes": [ "rust" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/day-01/target/debug/day-01"
+      }
+    },
+    "attach": {
+      "adapter": "CodeLLDB",
+      "filetypes": [ "rust", "c", "cpp", "jai" ],
+      "configuration": {
+        "request": "attach",
+        "program": "${workspaceRoot}/${fileBasenameNoExtension}",
+        "PID": "${PID}"
+      }
+    }
+  }
+}
