@@ -1,2 +1,5 @@
 day-01/target
 day-01/main
+**/target/*
+**/target
+**/target/
