@@ -5,7 +5,7 @@
       "filetypes": [ "rust" ],
       "configuration": {
         "request": "launch",
-        "program": "${workspaceRoot}/day-08/target/debug/day-08"
+        "program": "${workspaceRoot}/day-15/target/debug/day-15"
       }
     },
     "attach": {
